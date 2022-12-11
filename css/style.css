@@ -148,6 +148,6 @@ body {
 
 .intro {
   height: 100vh;
-  background: url(/img/hero.jpg) no-repeat center;
+  background: url(../img/hero.jpg) no-repeat center;
   background-size: cover;
 }
