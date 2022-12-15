@@ -187,6 +187,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   color: white;
+  outline: none !important;
 }
 
 .search-form__field::placeholder {
