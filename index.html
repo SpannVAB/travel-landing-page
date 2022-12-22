@@ -5,6 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Discover Amazing places in Japan</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
@@ -21,13 +30,13 @@
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a href="#!" class="header__link">Articles</a>
+              <a href="#articles" class="header__link js-scroll">Articles</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Locations</a>
+              <a href="#locations" class="header__link js-scroll">Locations</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Videos</a>
+              <a href="#videos" class="header__link js-scroll">Videos</a>
             </li>
             <li class="header__item">
               <a href="#!" class="header__link">Sign in</a>
@@ -164,7 +173,7 @@
 
     <!-- Tours start -->
 
-    <div class="tours">
+    <div class="tours" id="articles">
       <div class="wrapper-full">
         <div class="tours__tour tour">
           <div class="tour__pic">
@@ -202,7 +211,7 @@
 
     <!-- Top start -->
 
-    <section class="top">
+    <section class="top" id="locations">
       <div class="wrapper-full">
         <h2 class="top__title section-title">Today top places to visit</h2>
 
@@ -340,7 +349,7 @@
 
     <!-- Videos start -->
 
-    <div class="videos">
+    <div class="videos" id="videos">
       <div class="videos__wrapper">
         <div class="video__item">
           <iframe class="video__element" src="https://www.youtube.com/embed/CxuiFNYnEr4" title="YouTube video player"
